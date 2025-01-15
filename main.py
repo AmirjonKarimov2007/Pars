@@ -1,13 +1,13 @@
 import asyncio
 from playwright.async_api import async_playwright, Playwright
 import os
-path_to_extension = "/home/amirjon/Documents/Github/Parsing/chromium_automation"
+path_to_extension = "/home/amirjon/Documents/web_Scraping/coursera_login/ezyZip"
 user_data_dir = "user_dataa"
 
 async def run(playwright: Playwright):
     context = await playwright.chromium.launch_persistent_context(
         user_data_dir,
-        headless=True,
+        headless=False,
         args=[
             f"--disable-extensions-except={path_to_extension}",
             f"--load-extension={path_to_extension}",
@@ -23,12 +23,7 @@ async def run(playwright: Playwright):
     # You can add more code here to interact with the page or wait as needed
     await page.wait_for_timeout(10000)  # Wait for 10 seconds before closing (optional)
     import time
-    time.sleep(30)
-    html_content = await page.content()
-    with open("main.html", "w", encoding="utf-8") as f:
-            f.write(html_content)    
-    await context.close()
-    os.system(f"rm -rf {user_data_dir}")
+    time.sleep(100)
 
 async def main():
     async with async_playwright() as playwright:
