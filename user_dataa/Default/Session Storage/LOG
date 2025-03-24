@@ -1,2 +1,3 @@
-2025/01/15-22:48:39.455 1508 Creating DB /home/amirjon/Documents/web_Scraping/coursera_login/user_dataa/Default/Session Storage since it was missing.
-2025/01/15-22:48:41.293 1508 Reusing MANIFEST /home/amirjon/Documents/web_Scraping/coursera_login/user_dataa/Default/Session Storage/MANIFEST-000001
+2025/03/24-13:51:55.737 3b03 Reusing MANIFEST /Users/amirjon/Documents/parsing/Pars/user_dataa/Default/Session Storage/MANIFEST-000001
+2025/03/24-13:51:55.738 3b03 Recovering log #3
+2025/03/24-13:51:55.738 3b03 Reusing old log /Users/amirjon/Documents/parsing/Pars/user_dataa/Default/Session Storage/000003.log 

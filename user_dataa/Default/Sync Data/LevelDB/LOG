@@ -1,2 +1,3 @@
-2025/01/15-22:48:14.490 1494 Creating DB /home/amirjon/Documents/web_Scraping/coursera_login/user_dataa/Default/Sync Data/LevelDB since it was missing.
-2025/01/15-22:48:16.288 1494 Reusing MANIFEST /home/amirjon/Documents/web_Scraping/coursera_login/user_dataa/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/03/24-13:51:55.604 a803 Reusing MANIFEST /Users/amirjon/Documents/parsing/Pars/user_dataa/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/03/24-13:51:55.605 a803 Recovering log #3
+2025/03/24-13:51:55.605 a803 Reusing old log /Users/amirjon/Documents/parsing/Pars/user_dataa/Default/Sync Data/LevelDB/000003.log 
